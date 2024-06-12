@@ -1,14 +1,16 @@
 .flex-container{
     display: flex;
-    gap:5px;
 }
 
 .flex-container div{
-    flex: 1;
-    height: 100px;
-    background-color:lightblue;
+    background-color:lightgreen;
 }
 
+.flex-container div:nth-last-child(1),
 .flex-container div:nth-child(2){
-    flex-grow: 2;
+    width: 100px;
+}
+.flex-container div:nth-child(3){
+    flex: 1;
+    flex-shrink: 0;
 }
