@@ -1,21 +1,23 @@
 .flex-container{
     display: flex;
-    background-color: lightgray;
-    height: 200px;
+    padding: 10px;
+    gap: 10px;
     
 }
 
 .flex-container div{
-    /* display: flex; */
+    background-color: lightblue;
     padding: 10px ;
     align-items: baseline;
 }
-.item-1{
-    font-size: 23px;
+.nested-container{
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    padding: 10px;
 }
-.item-2{
-    font-size: 30px;
-}
-.item-3{
-    font-size: 37px;
+.nested-item{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
 }
