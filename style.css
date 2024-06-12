@@ -1,14 +1,12 @@
 .flex-container{
     display: flex;
-    justify-content: space-between;
-    background-color:lightcoral;
-    padding:20px;
-    color: #fff;
+    align-items: center;
+    background-color:lightyellow;
+    padding:15px;
+    height:300px;
 
 }
 
 .flex-container div{
-    border: 1px solid black;
     margin: 10px;
-    height: 100px;
 }
