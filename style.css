@@ -1,16 +1,14 @@
 .flex-container{
     display: flex;
-    background-color:lightsteelblue;
-    
+    gap:5px;
 }
 
 .flex-container div{
     flex: 1;
-    margin-right: 10px;
+    height: 100px;
+    background-color:lightblue;
 }
-.nested-container{
-    background-color: lightpink;
-    display:flex;
-    flex-direction: column;
-    padding: 10px;
+
+.flex-container div:nth-child(2){
+    flex-grow: 2;
 }
