@@ -1,14 +1,19 @@
 .flex-container{
     display: flex;
-    min-height: 150px;
+    background-color: lightgray;
 }
 
 .flex-container div{
-    flex-basis: 0;
-    background-color:lightcyan;
-    padding:10px;
+    border: 1px solid black;
+    margin: 5px;
 }
 
-.flex-container div:nth-last-child(1){
-    flex-basis: 200px;
+.flex-container div:nth-child(1){
+    order:3 ;
+}
+.flex-container div:nth-child(2){
+    order: 2;
+}
+.flex-container div:nth-child(3){
+    order: 1;
 }
