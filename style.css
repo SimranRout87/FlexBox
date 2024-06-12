@@ -1,16 +1,12 @@
 .flex-container{
     display: flex;
-    background-color: lightgoldenrodyellow;
-    padding: 15px;
+    background-color: lightcoral;
     border: 2px solid black;
-    flex-direction: row;
     
 }
-@media (max-width:600px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
 .flex-container div{
-    padding: 5px ;
+    padding: 10px ;
+}
+.flex-container div:nth-child(1){
+    width: 100px;
 }
