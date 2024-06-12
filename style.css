@@ -1,10 +1,16 @@
 .flex-container{
     display: flex;
-    background-color: lightblue;
-    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    border: 2px solid black;
+    flex-direction: row;
+    
+}
+@media (max-width:600px){
+    .flex-container{
+        flex-direction: column;
+    }
 }
 .flex-container div{
-    border-radius: 5px;
-    justify-content: space-evenly;
-    padding: 5px;
+    padding: 5px ;
 }
