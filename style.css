@@ -1,16 +1,14 @@
 .flex-container{
     display: flex;
+    min-height: 150px;
 }
 
 .flex-container div{
-    background-color:lightgreen;
+    flex-basis: 0;
+    background-color:lightcyan;
+    padding:10px;
 }
 
-.flex-container div:nth-last-child(1),
-.flex-container div:nth-child(2){
-    width: 100px;
-}
-.flex-container div:nth-child(3){
-    flex: 1;
-    flex-shrink: 0;
+.flex-container div:nth-last-child(1){
+    flex-basis: 200px;
 }
