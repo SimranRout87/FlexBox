@@ -1,10 +1,16 @@
 .flex-container{
     display: flex;
-    flex-wrap: wrap;
     background-color:lightsteelblue;
-    gap: 10px;
+    
 }
 
 .flex-container div{
-    width: 120px;
+    flex: 1;
+    margin-right: 10px;
+}
+.nested-container{
+    background-color: lightpink;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
 }
