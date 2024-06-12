@@ -1,19 +1,10 @@
 .flex-container{
     display: flex;
-    background-color: lightgray;
+    height: 250px;
+    background-color: lightyellow;
+    padding: 15px;
 }
 
-.flex-container div{
-    border: 1px solid black;
-    margin: 5px;
-}
-
-.flex-container div:nth-child(1){
-    order:3 ;
-}
 .flex-container div:nth-child(2){
-    order: 2;
-}
-.flex-container div:nth-child(3){
-    order: 1;
+    align-self: flex-end;
 }
