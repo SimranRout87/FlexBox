@@ -1,14 +1,21 @@
 .flex-container{
     display: flex;
-    background-color: lightsteelblue;
-    /* gap: 20px; */
+    background-color: lightgray;
+    height: 200px;
     
 }
+
 .flex-container div{
-    flex-grow: 1;
+    /* display: flex; */
     padding: 10px ;
+    align-items: baseline;
 }
-.flex-container div:nth-child(1){
-    flex-basis: 100px;
-    
+.item-1{
+    font-size: 23px;
+}
+.item-2{
+    font-size: 30px;
+}
+.item-3{
+    font-size: 37px;
 }
