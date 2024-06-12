@@ -1,12 +1,10 @@
 .flex-container{
     display: flex;
-    align-items: center;
-    background-color:lightyellow;
-    padding:15px;
-    height:300px;
-
+    flex-wrap: wrap;
+    background-color:lightsteelblue;
+    gap: 10px;
 }
 
 .flex-container div{
-    margin: 10px;
+    width: 120px;
 }
