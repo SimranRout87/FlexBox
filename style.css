@@ -1,10 +1,10 @@
 .flex-container{
     display: flex;
-    height: 250px;
-    background-color: lightyellow;
-    padding: 15px;
+    background-color: lightblue;
+    padding: 10px;
 }
-
-.flex-container div:nth-child(2){
-    align-self: flex-end;
+.flex-container div{
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 5px;
 }
